@@ -27,6 +27,7 @@ protected Integer id;
 
 	public TecnicoDTO() {
 		super();
+		addPerfil(Perfil.CLIENTE);
 	}
 
 	public TecnicoDTO(Tecnico obj) {
